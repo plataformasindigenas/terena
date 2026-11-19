@@ -1,0 +1,20 @@
+# The site's own texts (HTML allowed in about_*); terradoc brings the interface. Written on
+# 2026-11-19 from published sources, to get started; the team and the community can rewrite them.
+home_sentence: "The Terena language, of the Arawak family, spoken in Mato Grosso do Sul, São Paulo and Mato Grosso. The platform starts with texts on the people, the language and their pottery, and a bibliography; the dictionary comes with the fieldwork."
+meta_description: "Platform for the Terena language and culture: encyclopedia and bibliography, with the dictionary in preparation."
+card_encyclopedia_desc: "Texts on the Terena people, their language and pottery, from published sources (in Portuguese)."
+card_bibliography_desc: "Books, theses and articles on the Terena language and culture."
+about_title: "Terena"
+about_subtitle: "Digital platform for the Terena language and culture"
+about_mission: >
+  <p>This platform is part of the <a href="https://plataformas.terradoc.org/en/index.html">Indigenous
+  Languages Platform</a>. It gathers material on the language and culture of the Terena people
+  for those who speak, learn, teach or study the language. It is just starting: the current
+  texts come from published sources, and the dictionary will follow the fieldwork.</p>
+about_partners: >
+  <p>The platform is made by the team of the <a href="https://plataformas.terradoc.org/en/equipe.html">Indigenous
+  Languages Platform</a>, with the Terena community.</p>
+about_contact: >
+  <p>Corrections, requests and contributions: <a href="mailto:info@plataformasindigenas.org">info@plataformasindigenas.org</a>.
+  Any content can be withdrawn at the community's request.</p>
+about_citation: "Plataforma de Línguas Indígenas. Terena: digital platform for the language and culture. https://terena.terradoc.org"

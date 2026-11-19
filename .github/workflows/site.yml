@@ -1,0 +1,23 @@
+# Validate, build and publish this site on every push (all branches).
+# master → https://terena.terradoc.org/ ; other branches → previews.
+# How it works: https://github.com/plataformasindigenas/terradoc/blob/master/docs/publishing.md
+name: site
+on:
+  push:
+    branches: ['**']
+  delete:
+  workflow_dispatch:
+    inputs:
+      confirm_shrink:
+        description: "Allow this release to shrink (records or files)"
+        type: boolean
+        default: false
+permissions:
+  contents: write   # push refs/sites/*
+  issues: write     # failure issues
+jobs:
+  site:
+    # Pinned by commit; keep in step with terradoc in requirements.txt.
+    uses: plataformasindigenas/terradoc/.github/workflows/site.yml@a88245dea3e4fee820b5c19c08605dd31038d4cb  # v0.24.0
+    with:
+      confirm_shrink: ${{ inputs.confirm_shrink || false }}

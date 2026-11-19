@@ -1,0 +1,21 @@
+# Os textos do próprio site (HTML permitido em about_*); o terradoc traz a interface.
+# Escritos em 2026-11-19 a partir de fontes publicadas, para começar; a equipe e a comunidade
+# podem reescrever tudo.
+home_sentence: "A língua terena, da família Aruak, falada em Mato Grosso do Sul, São Paulo e Mato Grosso. A plataforma começa com textos sobre o povo, a língua e a cerâmica e com a bibliografia; o dicionário vem com a pesquisa de campo."
+meta_description: "Plataforma da língua e da cultura Terena: enciclopédia e bibliografia, com o dicionário em preparação."
+card_encyclopedia_desc: "Textos sobre o povo Terena, a língua e a cerâmica, a partir de fontes publicadas."
+card_bibliography_desc: "Livros, teses e artigos sobre a língua e a cultura Terena."
+about_title: "Terena"
+about_subtitle: "Plataforma digital da língua e da cultura Terena"
+about_mission: >
+  <p>Esta plataforma faz parte da <a href="https://plataformas.terradoc.org/">Plataforma de
+  Línguas Indígenas</a>. Ela reúne material sobre a língua e a cultura do povo Terena para
+  quem fala, aprende, ensina ou pesquisa a língua. Está no começo: os textos de agora vêm de
+  fontes publicadas, e o dicionário entra quando os dados da pesquisa de campo chegarem.</p>
+about_partners: >
+  <p>A plataforma é feita pela equipe da <a href="https://plataformas.terradoc.org/pt/equipe.html">Plataforma
+  de Línguas Indígenas</a>, com a comunidade Terena.</p>
+about_contact: >
+  <p>Correções, pedidos e contribuições: <a href="mailto:info@plataformasindigenas.org">info@plataformasindigenas.org</a>.
+  Qualquer conteúdo pode ser retirado a pedido da comunidade.</p>
+about_citation: "Plataforma de Línguas Indígenas. Terena: plataforma digital da língua e da cultura. https://terena.terradoc.org"

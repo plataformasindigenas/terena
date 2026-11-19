@@ -1,0 +1,11 @@
+people: Terena
+elements:
+  texture:
+    title: "Brunido"
+    description: "Riscos suaves e irregulares, muito claros, como a superfície de uma panela polida com uma pedrinha depois do engobe. Não tem desenho e não copia a pintura em argila branca da cerâmica, que passa de mãe para filha nas famílias de ceramistas."
+    sources:
+      - "Vietta 2015, \"Os 'valores' da cerâmica terena campo-grandense\", Cadernos do LEPAARQ 12(24), pp. 114–116 (engobe e polimento)"
+      - "Gomes 2016, \"Do cru. A vida oculta da cerâmica terena\", Tellus 31"
+      - "research/2026-11-19-new-platforms/terena.md §3, §8 (meta)"
+    drawn_by: "Claude, 2026-11-19"
+    approved: {by_role: coordinator, date: 2026-11-19, note: "approved by the coordinator under the communities' general approval"}

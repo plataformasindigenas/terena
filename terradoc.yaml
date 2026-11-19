@@ -1,0 +1,54 @@
+project_name: "Terena"
+site_title: "Terena"
+culture_name: "Terena"
+meta_prefix: "terena"
+# ISO 639-3 da língua terena (atributo lang no texto na língua).
+language_code: "ter"
+base_url: "https://terena.terradoc.org"
+project_url: "https://plataformas.terradoc.org/"
+locales: ["pt", "en"]
+locale_labels:
+  pt: "Português"
+  en: "English"
+default_locale: "pt"
+bib_file: "references.bib"
+
+# Início (2026-11): só a enciclopédia e a bibliografia, com material publicado. O dicionário,
+# a fauna e as plantas entram quando os dados da pesquisa de campo chegarem.
+modules:
+  dictionary: { enabled: false }
+  encyclopedia: { enabled: true }
+  fauna: { enabled: false }
+  ethnobotany: { enabled: false }
+  bibliography: { enabled: true }
+  recordings: { enabled: false }
+  corpus: { enabled: false }
+  videos: { enabled: false }
+
+module_labels:
+  dictionary: "Dicionário"
+  encyclopedia: "Enciclopédia"
+  fauna: "Fauna"
+  ethnobotany: "Etnobotânica"
+  bibliography: "Bibliografia"
+
+# O alfabeto (ordem das letras) ainda não foi confirmado com os professores (CULTURA.md).
+# Enquanto isso o dicionário segue a ordem do português.
+
+theme:
+  templates: v2
+  pack: terena
+  # As cores vêm da cerâmica e da palha (CULTURA.md). O vermelho do engobe fica de fora por
+  # enquanto: vermelho com branco é a pintura de uma das metades em pelo menos uma aldeia, e
+  # isso será confirmado com a comunidade.
+  palette:
+    ground: {color: "#F5EFE4", material: "argila branca (káta)"}
+    ink: {color: "#2B2420", material: "argila escura do corpo da panela (moté), carvão"}
+    primary: {color: "#7A4A2E", material: "argila queimada"}
+    fill: {color: "#D6B26A", material: "palha de buriti (abanos, saias da dança)"}
+    muted: {color: "#6E6259", material: "cinza de madeira"}
+  hero_people: false
+  hero_image: "images/rio-aquidauana.jpg"
+  hero_credit: "Bárbara Gondim, Wikimedia Commons (CC BY-SA 4.0)"
+  hero_alt: "O rio Aquidauana, em Mato Grosso do Sul"
+  favicon: "images/favicon.svg"
