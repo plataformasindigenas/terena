@@ -1,0 +1,7 @@
+__pycache__/
+*.py[oc]
+.venv
+# Build output and the export bundle (rebuilt by terradoc build)
+docs/
+data/*.json
+.terradoc/
