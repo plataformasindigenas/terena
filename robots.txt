@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://terena.terradoc.org/sitemap.xml

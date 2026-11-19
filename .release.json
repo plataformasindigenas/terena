@@ -1,0 +1,13 @@
+{
+  "project": "terena",
+  "terradoc_version": "0.24.0",
+  "source_commit": "7fd0a05f4026fc8be857c651d57d588315e8d316",
+  "source_ref": "inicio",
+  "files": 39,
+  "bytes": 948622,
+  "modules": {
+    "encyclopedia": 3,
+    "bibliography": 11
+  },
+  "owned_by_terradoc": true
+}
